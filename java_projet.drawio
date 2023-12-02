@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-02T10:02:01.436Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="-IaIfnyox4hiYKWgknNn" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-02T10:10:36.373Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="fHzr27u2fgBKKBuvNg1p" version="22.1.5" type="github">
   <diagram name="Page-1" id="v7P0pyQyvOZX8OTGJmDP">
     <mxGraphModel dx="838" dy="1590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -128,9 +128,41 @@
         </mxCell>
         <mxCell id="Od15NHEQVfIm5OTxSFyM-41" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0.43;entryY=-0.063;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Od15NHEQVfIm5OTxSFyM-40" target="Od15NHEQVfIm5OTxSFyM-26">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="532.5" y="-115" as="sourcePoint" />
+            <mxPoint x="583" y="-150" as="sourcePoint" />
             <mxPoint x="647.5" y="-170" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Od15NHEQVfIm5OTxSFyM-42" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="620" y="-280" as="sourcePoint" />
+            <mxPoint x="770" y="-280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Od15NHEQVfIm5OTxSFyM-43" value="ajouter jeux" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="780" y="-310" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Od15NHEQVfIm5OTxSFyM-44" value="récupérer information jeux" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="780" y="-470" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Od15NHEQVfIm5OTxSFyM-45" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Od15NHEQVfIm5OTxSFyM-44" target="Od15NHEQVfIm5OTxSFyM-43">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="783" y="-374" as="sourcePoint" />
+            <mxPoint x="877" y="-320" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Od15NHEQVfIm5OTxSFyM-46" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Od15NHEQVfIm5OTxSFyM-45">
+          <mxGeometry x="-0.0083" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Od15NHEQVfIm5OTxSFyM-47" value="&lt;div&gt;include&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Od15NHEQVfIm5OTxSFyM-45">
+          <mxGeometry x="0.0472" y="-6" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Od15NHEQVfIm5OTxSFyM-48" value="trier jeux" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="950" y="-470" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
